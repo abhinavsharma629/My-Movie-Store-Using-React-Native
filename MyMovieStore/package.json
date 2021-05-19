@@ -1,0 +1,63 @@
+{
+  "name": "MyMovieStore",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@freakycoder/react-native-bounceable": "^0.2.4",
+    "@freakycoder/react-native-header-view": "^1.1.1",
+    "@react-native-async-storage/async-storage": "^1.13.4",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/drawer": "^5.12.4",
+    "@react-navigation/native": "^5.9.2",
+    "@react-navigation/stack": "^5.14.3",
+    "react": "16.13.1",
+    "react-content-loader": "^6.0.1",
+    "react-native": "0.63.4",
+    "react-native-apple-header": "^0.1.1",
+    "react-native-camera": "^3.42.2",
+    "react-native-classic-header": "^0.1.7",
+    "react-native-deep-linking": "^2.2.0",
+    "react-native-elements": "^3.2.0",
+    "react-native-gesture-handler": "^1.10.1",
+    "react-native-gorgeous-header": "^0.1.0",
+    "react-native-media-controls": "^2.3.0",
+    "react-native-orientation-locker": "^1.2.0",
+    "react-native-paper": "^4.7.1",
+    "react-native-permissions": "^3.0.0",
+    "react-native-popup-dialog": "^0.18.3",
+    "react-native-profile-header": "^0.1.1",
+    "react-native-qrcode-scanner": "^1.5.3",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^2.17.1",
+    "react-native-share": "^5.1.1",
+    "react-native-skeleton-content": "^1.0.20",
+    "react-native-slider": "^0.11.0",
+    "react-native-snap-carousel": "^3.9.1",
+    "react-native-svg": "^12.1.0",
+    "react-native-swipe-gestures": "^1.0.5",
+    "react-native-vector-icons": "^8.0.0",
+    "react-native-video": "^5.1.1",
+    "react-navigation-material-bottom-tabs": "^2.3.3",
+    "react-navigation-stack": "^2.10.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/runtime": "^7.12.18",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.20.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.65.1",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
